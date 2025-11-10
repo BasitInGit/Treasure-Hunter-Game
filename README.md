@@ -24,11 +24,6 @@ A browser-based grid game developed in JavaScript. The game features a treasure 
 
 ├─ game.pretty.js     # Readable version of game logic
 
-├─ style.css          # CSS styling (optional)
-
-├─ images/            # Images used for objects
-
-└─ README.md          # This file
 
 ## How to use 
 
