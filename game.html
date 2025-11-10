@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en-GB'>
+<head>
+<meta charset="utf-8">
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    td { border: 1px solid black; 
+        width: 2em; 
+        height: 2em; 
+        margin: 0em;
+        text-align: center;
+        vertical-align: middle;
+    }
+    div.RedBG  { background-color: #f00; }
+    div.GreenBG { background-color: green;}
+    td.BlueBG  { background-color: white; }
+
+    #dw {
+    font-size: 1.2em;   
+    font-weight: bold;  
+    color: white;       
+}
+</style>
+</head>
+<body>
+    <div id="p1"></div>
+    <div id="p2"></div>
+    <div id="p3"></div>
+    <div id="p4"></div>
+
+    <div class="container">
+
+    <h1 id = "h1"></h1>
+    <div id="d1"></div><br>
+    <div id="dw" class="RedBG"></div><br>
+    <table id="t1"><div id="e1" style="display: none;"></div>
+                   <br><div id="e2" style="display: none;"></div>
+                   <div id="e3" style="display: none;"></div>
+                   <div id="e4" style="display: none;"></div>
+    </table>
+    <br><div id="d2"></div>
+
+    
+    <div id="b1">
+        <br><br><br><br><form name = "form2" action="">
+            <input type="button" id="Play" Value = 'Play' onclick=" play()">
+            <input type="button" id="end" Value = 'End Game' onclick=" endGame()" style="display: none;">
+            <input type="button" id="newGame" value="New Game" onclick=" resetGame()" style="display: none;">
+        </form>
+    </div>
+
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
