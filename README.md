@@ -15,6 +15,15 @@ A browser-based grid game developed in JavaScript. The game features a treasure 
 - Prevents invalid moves and provides error messages
 
 - Game ends automatically when no further moves are possible
+## File structure
+/treasure-hunter-game
+│
+├─ game.html          # Main HTML page
+├─ game.js            # Minified game logic (uglified)
+├─ game.pretty.js     # Readable version of game logic
+├─ style.css          # CSS styling (optional)
+├─ images/            # Images used for objects
+└─ README.md          # This file
 
 ## How to use 
 
